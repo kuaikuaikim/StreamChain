@@ -39,7 +39,7 @@ hash := crypto.Keccak256Hash([]byte("helloworld"))
 ```
 &emsp;&emsp;经过多年的测试和分析，美国政府选择了Keccak算法作为SHA3的加密标准。Keccak拥有良好的加密性能以及抗解密能力。它采用了创新的的“海绵引擎”散列消息文本。它是快速的，在英特尔酷睿2处理器下的平均速度为12.5周期每字节。它设计简单，方便硬件实现。 Keccak使用了24个变换循环来缩减消息文本为散列值。每个循环连续调用了五个模块。   
 Keccak256的计算过程：  
-![](../img/gpucash/sha3.gif)   
+![](http://streamchian.oss-cn-hangzhou.aliyuncs.com/img/sha3.gif)   
 
 $\theta$: $a[i][ j][k] ← a[i][ j][k] ⊕ parity(a[0...4][ j−1][k]) ⊕ parity(a[0...4][ j+1][k−1])$  
 $\rho$: $a[i][ j][k] ← a[i][ j][k−(t+1)(t+2)/2], where {\displaystyle {\begin{pmatrix}i\\j\end{pmatrix}}={\begin{pmatrix}3&2\\1&0\end{pmatrix}}^{t}{\begin{pmatrix}0\\1\end{pmatrix}}} {\begin{pmatrix}i\\j\end{pmatrix}}={\begin{pmatrix}3&2\\1&0\end{pmatrix}}^{t}{\begin{pmatrix}0\\1\end{pmatrix}}$  

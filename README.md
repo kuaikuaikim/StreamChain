@@ -1,4 +1,4 @@
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;StreamChain白皮书
+StreamChain白皮书
 =====
 
 金快快&emsp;&emsp;jinkuaikuai@outlook.com
@@ -8,7 +8,7 @@
 &emsp;&emsp;区块链技术可以帮助解决一些问题，通过连接数字内容原创者(艺术家，音乐家，摄影师等)，发行平台与消费者，更有效地组织点播付费和结算服务。它还可以帮助数字权利在整个行业得到更有效的识别和管理，并向正确的艺术家和内容所有者支付适当的赔偿。区别于传统的发行模式，区块链去掉了所有中介平台，例如在市场上发售的音乐和视频等流媒体获得的收入大部分都会归原创者所有。  
 &emsp;&emsp;除了解决版权和付费结算问题，我们还打算利用区块链和P2P技术解决内容文件的存储问题。所有发行的内容文件都会存储在分布式的各个节点中，通过代币驱动各主机节点，实现了完全去中心化，自治的媒体生态。我们的分布式存储费大概只有传统云储存费用的1/10，这能帮助内容原创者降低了作品的存储成本。  
 
-####2 StreamChain的智能合约
+#### 2 StreamChain的智能合约
 &emsp;&emsp;自从2008年中本聪发布了描述比特币协议的白皮书。比特币就已经成为全球公认的最有价值的数字货币。比特币非常成功，这是因为它提供了访问区块链的机制。然而，区块链是一个非常强大的技术，它能够执行复杂的操作，并不仅仅是比特币。这就是智能合约的想法。智能合约已经成为企业区块链应用的基石，可能成为块链技术的支柱之一。下面我们将探讨智能合约是什么，它的工作原理以及它如何被使用。  
 &emsp;&emsp;智能合约只是一段计算机程序，合约上的条款可以被预编程，具有自我执行的能力。智能合约的主要目的是让两个匿名方通过互联网进行交易和开展业务，而不需要通过任何中介。  
 StreamChain将会独立开发自己的区块链系统，为了满足自身的特殊需求，它必须且只能被设计成为一条公有链。和以太坊一样，我们的所有业务都会跑在智能合约之上。StreamChain有三类智能合约：  
@@ -251,7 +251,7 @@ $$ tr_i = s_{oi}^{1} + s_{oi}^{2} + \sum_{P}^{j \neq i} s_{oi}^{1} = r $$
 
 
 
-####参考文献
+#### 参考文献
 1. Satoshi Nakamoto. 比特币白皮书[EB/OL]. [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)，(2008).
 2. Wikipedia. SHA-3 wiki[EB/OL]. [https://en.wikipedia.org/wiki/SHA-3](https://en.wikipedia.org/wiki/SHA-3)
 3. Ethereum Wiki. 以太坊白皮书[EB/OL]. [https://github.com/ethereum/wiki/wiki/White-Paper](https://github.com/ethereum/wiki/wiki/White-Paper)
